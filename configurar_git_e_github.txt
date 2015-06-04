@@ -1,0 +1,9 @@
+Instale o git:
+# sudo apt-get install git
+
+Adicione sua identidade: nome e e-mail. A cada commit essa informação irá junto.
+# git config --global user.name "Seu nome"
+# git config --global user.email seunome@exemplo.com
+
+Agora, vamos criar um chave ssh e nos cadastrarmos em um repositório git. Essa chave é necessária para a segurança dos repositórios. Provavelmente, você não terá uma chave já criada. Crie primeiro uma pasta oculta para colocar as suas chaves ssh:
+# mkdir .ssh
